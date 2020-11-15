@@ -11,9 +11,9 @@ int main()
 	SetConsoleCP(1251);
 	SetConsoleOutputCP(1251);
 
-	char x;
-	cout << "Введіть оцінку x: ";
-	cin >> x;
+	char y;
+	cout << "Введіть оцінку = ";
+	cin >> y;
 
 	switch (x)
 	{
@@ -27,8 +27,7 @@ int main()
 	case '8': cout << "Вісім"; break;
 	case '9': cout << "Дев'ять"; break;
 	case '10': cout << "Десять"; break;
-	case '11': cout << "Одинадцать"; break;
-	case '12': cout << "Дванадцять"; break;
+	
 	default: cout << "Не існує"; break;
 	}
 
